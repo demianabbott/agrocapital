@@ -22,20 +22,16 @@ body {
   border-bottom: 1px solid #38b634;
 }
 
+.navbar-modificada img {
+  width: 100px;
+  height: 60px;
+}
+
 .navlink-modificada {
   text-decoration: none;
   color: black;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-}
-
-.main__index p {
-  font-size: 60px;
-  font-weight: 600;
-}
-.main__index h1 {
-  font-size: 20px;
-  font-weight: 300;
 }
 
 .div-container-modificado {
@@ -205,6 +201,10 @@ body {
   padding-bottom: 30px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+textarea {
+  height: 10rem;
 }
 
 body {

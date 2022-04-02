@@ -8,6 +8,12 @@
 
 .navbar-modificada {
     @extend %estilo;
+    img {
+          
+        width: 100px;
+        height: 60px;
+
+    }
 } 
 
 
