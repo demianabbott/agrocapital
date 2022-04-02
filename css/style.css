@@ -11,21 +11,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/*%disposicion {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
-.navbar-modificada {
-  padding: 1rem;
-  border-bottom: 1px solid #38b634;
+.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-modificada {
-  /*display: flex;
-  justify-content: space-between;
-  align-items: center;*/
-  /* @extend %disposicion;*/
+  padding: 1rem;
+  border-bottom: 1px solid #38b634;
 }
 
 .navlink-modificada {
@@ -51,11 +45,12 @@ body {
   border: none;
 }
 
-/*%disposicion {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
+.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar-modificada {
   padding: 1rem;
   border-bottom: 1px solid #38b634;
@@ -66,7 +61,7 @@ body {
 }
 
 .btn-modificado {
-  background-color: gray;
+  background-color: grey;
   border-color: black;
   margin-top: 15px;
   color: white;
@@ -75,9 +70,34 @@ body {
   background-color: #38b634;
 }
 
+@media (max-width: 780px) {
+  .main__index {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.main__index p {
+  font-size: 60px;
+  font-weight: 600;
+}
+@media (max-width: 780px) {
+  .main__index p {
+    font-size: 30px;
+  }
+}
+.main__index h1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .img-principal {
   width: 90%;
   padding: 1rem;
+}
+@media (max-width: 780px) {
+  .img-principal {
+    display: none;
+  }
 }
 
 .main__index {
@@ -85,11 +105,39 @@ body {
   margin-bottom: 100px;
 }
 
-/*%disposicion {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
+.tabla--modificada {
+  margin-bottom: 100px;
+  font-size: larger;
+}
+@media (max-width: 780px) {
+  .tabla--modificada {
+    font-size: 12px;
+  }
+}
+
+.main__nosotros {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.titulo__nosotros {
+  font-weight: 600;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn-contacto--modificado {
+  background-color: #38b634;
+  color: white;
+}
+
+.titulo__contacto, .titulo__galeria, .titulo__elnegocio, .titulo__nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar-modificada {
   padding: 1rem;
   border-bottom: 1px solid #38b634;
@@ -119,14 +167,54 @@ body {
   background-color: gray;
 }
 
+.titulo__elnegocio {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.section__elnegocio {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+@media (max-width: 780px) {
+  .section__elnegocio {
+    font-size: 15px;
+  }
+}
+
+.titulo__galeria {
+  font-weight: 600;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section__galeria {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section__contacto {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.titulo__contacto {
+  font-weight: 600;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
 
-.footer__index {
+.footer--modificado {
   background-color: #f1f1f1;
 }
-.footer__index i {
+.footer--modificado i {
   font-size: 20px;
   padding: 1rem;
   color: black;
@@ -140,11 +228,12 @@ body {
   font-weight: 300;
 }
 
-/*%disposicion {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
+.titulo__nosotros, .titulo__elnegocio, .titulo__galeria, .titulo__contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar-modificada {
   padding: 1rem;
   border-bottom: 1px solid #38b634;

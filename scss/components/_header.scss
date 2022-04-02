@@ -4,17 +4,12 @@
 @import "../base/extendes";
 @import "../base/mixins";
 
+//
+
 .navbar-modificada {
     @extend %estilo;
-    
-    
-    /*display: flex;
-    justify-content: space-between;
-    align-items: center;*/ 
-   /* @extend %disposicion;*/
-             
-                
-}    
+} 
+
 
 
 
@@ -30,17 +25,7 @@
     
 
 }
-.main__index {
-    
-    p {
-        font-size: 60px; 
-        font-weight: 600;
-    }
-        h1 {
-            font-size: 20px;
-            font-weight: 300;
-    }
-}
+
 .div-container-modificado {
     padding: 30px;
     div {
