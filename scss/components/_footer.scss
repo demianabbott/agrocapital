@@ -9,10 +9,17 @@ body {
 
 .footer--modificado {
     background-color: map-get($footer, color-fondo-secundario);
+    .fab:hover {
+        color: $primary-color
+    }
+    .bi:hover {
+        color: $primary-color
+    }
             i {
                 font-size: 20px;
                 padding: 1rem;
                 color: black;
+                
                 }
                 
 

@@ -221,6 +221,12 @@ body {
 .footer--modificado {
   background-color: #f1f1f1;
 }
+.footer--modificado .fab:hover {
+  color: #38b634;
+}
+.footer--modificado .bi:hover {
+  color: #38b634;
+}
 .footer--modificado i {
   font-size: 20px;
   padding: 1rem;
