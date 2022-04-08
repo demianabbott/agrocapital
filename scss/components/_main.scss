@@ -79,7 +79,11 @@ body {
 //Contacto 
 
 .btn-contacto--modificado {
-    background-color: $primary-color;
+    background-color: gray;
     color: white;
+    &:hover {
+        background-color: $primary-color;
+        color:white;
+    }
     
 }
