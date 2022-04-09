@@ -64,6 +64,7 @@ body {
   border-color: black;
   margin-top: 15px;
   color: white;
+  font-weight: 600;
 }
 .btn-modificado:hover {
   background-color: #38b634;
@@ -85,8 +86,7 @@ body {
   }
 }
 .main__index h1 {
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 25px;
 }
 
 .img-principal {
@@ -118,6 +118,12 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.main__nosotros h5 {
+  font-weight: 600;
+}
+.main__nosotros p {
+  font-size: 20px;
+}
 
 .titulo__nosotros {
   font-weight: 600;
@@ -129,6 +135,7 @@ body {
 .btn-contacto--modificado {
   background-color: gray;
   color: white;
+  font-weight: 600;
 }
 .btn-contacto--modificado:hover {
   background-color: #38b634;
@@ -161,6 +168,7 @@ body {
 }
 .section__index em {
   color: white;
+  font-weight: 600;
 }
 
 .tarjeta--modificada {
@@ -201,6 +209,8 @@ body {
 .section__contacto {
   margin-top: 40px;
   margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .titulo__contacto {
@@ -239,6 +249,7 @@ body {
 .contenedor__footer--modificado h6 {
   color: black;
   font-weight: 300;
+  font-size: 20px;
 }
 
 .titulo__nosotros, .titulo__elnegocio, .titulo__galeria, .titulo__contacto {

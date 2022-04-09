@@ -15,6 +15,7 @@ body {
     border-color: black; 
     margin-top: 15px;
     color: white;
+    font-weight: 600;
     &:hover {
         background-color: $primary-color;
     }
@@ -34,8 +35,8 @@ body {
         } 
     }
         h1 {
-            font-size: 20px;
-            font-weight: 300;
+            font-size: 25px;
+            
         
     }
 }
@@ -68,6 +69,13 @@ body {
 
  .main__nosotros {
     @include margin-top-bottom-medium;
+     h5 {
+         font-weight: 600
+
+    }
+    p {
+        font-size: 20px;
+    }
     
 }
 .titulo__nosotros {
@@ -81,6 +89,7 @@ body {
 .btn-contacto--modificado {
     background-color: gray;
     color: white;
+    font-weight: 600;
     &:hover {
         background-color: $primary-color;
         color:white;
