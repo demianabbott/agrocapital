@@ -76,16 +76,23 @@ body {
     margin-bottom: 30px;
   }
 }
-.main__index p {
+
+@media (max-width: 780px) {
+  .tarjeta--index {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.tarjeta--index p {
   font-size: 60px;
   font-weight: 600;
 }
 @media (max-width: 780px) {
-  .main__index p {
+  .tarjeta--index p {
     font-size: 30px;
   }
 }
-.main__index h1 {
+.tarjeta--index h1 {
   font-size: 25px;
 }
 
