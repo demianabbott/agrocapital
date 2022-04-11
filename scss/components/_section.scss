@@ -63,7 +63,14 @@
     @include margin-top-bottom-medium;
     
 }
-
+.card-galeria--modificada {
+    h5 {
+        font-weight: 600;
+    }
+    p {
+        font-size: 20px;
+    }
+}
 //Contacto
 
 .section__contacto {
