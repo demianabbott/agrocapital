@@ -34,7 +34,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .navlink-modificada:hover {
-  color: #38b634;
+  color: #38b634 !important;
 }
 
 .div-container-modificado {

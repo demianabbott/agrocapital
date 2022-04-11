@@ -27,7 +27,7 @@
     font-weight: 600;    
     font-family: "Poppins", sans-serif;
     &:hover {
-        color: $primary-color
+        color: $primary-color !important; 
     }
     
 }
