@@ -72,8 +72,8 @@ body {
 
 @media (max-width: 780px) {
   .main__index {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -260,10 +260,10 @@ body {
 .contenedor__footer--modificado {
   background-color: #38b634;
 }
-.contenedor__footer--modificado h6 {
-  color: black;
+.contenedor__footer--modificado address {
+  color: white;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .titulo__nosotros, .titulo__elnegocio, .titulo__galeria, .titulo__contacto {

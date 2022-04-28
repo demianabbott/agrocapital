@@ -26,10 +26,10 @@ body {
 }
 .contenedor__footer--modificado {
         background-color: $primary-color;
-        h6 {
-            color: black;
+        address {
+            color: white;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 15px;
         }
 }
 //El Negocio
